@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600;700&display=swap');
+
+    body{
+        background: linear-gradient(#312244, #272640, #212f45, #1b3a4b, #144552) fixed;
+    }
+
+    header {
+    background: white;
+    font-size: 30px;
+
+}
+
+header > h1 {
+    color: #24272e;
+    font-family: Asap, sans-serif;
+}
+
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+    }
+        canvas{
+            border: 10px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+
+        div, p, h3{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+            color: white;
+        }
+
+        h3{
+            font-size: 30px;
+        }
+
+        #text{
+            text-align: justify;
+            margin-left: 250px;
+        }
+
+        #text2{
+            text-align: justify;
+            margin-left:350px;
+        }
+
+        p{
+            text-align: justify;
+            margin: 0px 70px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <header>
+    <h1>Flappy Bird</h1>
+</header>
+</center>
+    <canvas id="bird" width="320" height="480"></canvas>
+
+
+        <h3>How To Play</h3>
+        <div id="text">
+        <ol>
+        <li>Start the game by clicking anywhere in the canvas.</li>
+        <li>Click to make the bird flap and dodge the pipe.</li>
+        <li>Stay in the middle of screen until the first set of pipes appears.</li>
+        <li>If you hit a pipe or the ground, the game ends.</li>
+        <li>Find your rhythm for higher and lower pipes.</li>
+        <li>Now play and increase you score.</li>
+        </ol>
+        <br>
+        <br>
+        </div>
+        <center>
+        <h3>Medals</h3>
+    </center>
+        <p>Up till 40, every ten pipes you pass you will earn a medal ranging from bronze to platinum. These do not affect the gameplay, but they are an achievement to earn:</p>
+        <div id=text2>
+        <ul>
+        <li>10 pipes- Bronze Medal</li>
+        <li>20 pipes- Silver Medal</li>
+        <li>30 pipes- Gold Medal</li>
+        <li>40+ pipes- Platinum Medal</li>
+        </ul>
+    </div>
+
+
+    <script src="game.js"></script>
+</body>
+</html>

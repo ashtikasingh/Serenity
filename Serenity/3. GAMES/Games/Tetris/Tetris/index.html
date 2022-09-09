@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Tetris Game</title>
+    <link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Asap:wght@600;700&display=swap');
+
+body{
+        background: linear-gradient(#312244, #272640, #212f45, #1b3a4b, #144552) fixed;
+    }
+
+    header {
+    background: white;
+    font-size: 30px;
+
+}
+
+header > h1 {
+    color: #24272e;
+    font-family: Asap, sans-serif;
+}
+
+        #score{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+            color: white;
+        }
+        canvas{
+            display: block;
+            margin:0 auto;
+        }
+
+        #text{
+            text-align: justify;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Tetris</h1>
+    </header>
+</center>
+
+    <canvas id="tetris" width="200" height="400"></canvas>
+    <br><br>
+    <div>
+        Score : <div id="score">0</div>
+    </div>
+    <div id="text">
+        <h3>How To Play</h3>
+        <ol>
+        <li>Start the game on the zero score. </li>
+        <li>Move the tetrominoes left and right with the arrow keys buttons.</li>
+        <li>Understand the different tetrominoes and arrange according to it. </li>
+        <li>Use the up button to rotate the tetrominoes to fit holes.</li>
+        <li>Complete lines to gain points and raise the score. </li>
+        <li>Check upcoming pieces and plan for them.</li>
+        </ol>
+        <br>
+        <br>
+    </div>
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+</body>
+</html>

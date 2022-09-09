@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Pong Game</title>
+    <link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+    
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600;700&display=swap');
+
+        body{
+            background: linear-gradient(#312244, #272640, #212f45, #1b3a4b, #144552) fixed;
+        }
+
+        header {
+    background: white;
+    font-size: 30px;
+
+}
+
+header > h1 {
+    color: #24272e;
+    font-family: Asap, sans-serif;
+}
+
+        h1{
+            color: #FFF;
+            margin-top: 10px;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+        }
+
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+            color: white;
+            margin-top: 500px;
+        }
+
+        #text{
+            text-align: justify;
+            margin-left: 250px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <center>
+        <header>
+    <h1>PING PONG GAME</h1>
+</header>
+</center>
+
+   <canvas id="pong" width="600" height="400"></canvas>
+
+   <div id="text">
+    <h3>How To Play</h3>
+    <ol>
+    <li>Start the game on the zero score.</li>
+    <li>The left side is yours and right side is computers.</li>
+    <li>Move the cursor in the black region to hit the ball. </li>
+    <li>Whoever lose the ball( Not able to hit) will get a point.</li>
+    <li>Play according to it and enjoy!</li>
+    </ol>
+    <br>
+    <br>
+</div>
+
+   <script src="pong.js"></script>
+</body>
+</html>

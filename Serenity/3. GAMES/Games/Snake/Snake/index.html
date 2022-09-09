@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+        <link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+        
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600;700&display=swap');
+
+            body{
+                background: linear-gradient(#312244, #272640, #212f45, #1b3a4b, #144552) fixed;
+            }
+
+            header {
+    background: white;
+    font-size: 25px;
+
+}
+
+header > h1 {
+    color: #24272e;
+    font-family: Asap, sans-serif;
+}
+
+            canvas{
+                display: block;
+                margin: 0 auto;
+            }
+
+            div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+            color: white;
+        }
+
+        #text{
+            text-align: justify;
+            margin-left: 250px;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+            <header>
+                <h1>Snake Game</h1>
+            </header>
+        </center>
+    <canvas id="snake" width="608" height="608"></canvas>
+    <div id="text">
+        <h3>How To Play</h3>
+        <ol>
+        <li>Start with the 0 score and increase by eating fruits.</li>
+        <li>Use the keyboard keys A,W,S and D to move the snake.</li>
+        <li>The game will be over when u hit the boundary of the canvas.</li>
+        <li>So, eat healthy food and increase your score!</li>
+        <br>
+        <br>
+      </ol>
+    </div>
+
+    <script src="snake.js"></script>
+    </body>
+</html>

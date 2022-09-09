@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Serenity</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Font-Style -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="preloaderbody" class="preloader-body">
+        <div class="preloader">
+
+  <span>S</span>
+  <span>e</span>
+  <span>r</span>
+  <span>e</span>
+  <span>n</span>
+  <span>i</span>
+  <span>t</span>
+  <span>y</span>
+  <h4>Keep Calm Enjoy Life</h4>
+        </div>
+      </div>
+    <header>
+
+        <!-- Navbar -->
+
+        <nav>
+            <div class="containerMENU">
+                <h3 class="logo"><img src="./logo2-removebg-preview.png"></h3>
+                <div class="hamburger-menu">
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a>
+                            <a href="#vsn">Our Vision</a>
+                            <a href="../2. MEDITATION MAIN PAGE/MainPage.html" target="_blank">Meditation</a>
+                            <a href="../3. GAMES/Games.html" target="_blank">Games</a>
+                            <a href="../4. OUR TEAM/t1.html" target="_blank">Our Team</a>
+                            <a href="#testimonial">Testimonials</a>
+                            <a href="../LOGIN FORM/Login page/login.html" target="_blank">Login/Register</a>
+                            <a href="#contact">Contact Us</a>
+                          </div>
+                        <div onclick="openNav()"><i class="fas fa-bars" id="iconNav"></i>
+                        </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Top Landscape -->
+        <div id="main">
+
+        <h1 class="big-title translate" data-speed="0.1" style="font-family:'Pacifico', cursive ;">Serenity</h1>
+
+        <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
+        <img src="img/mountain1.png" class="mountain1 translate" data-speed="-0.2" alt="">
+        <img src="img/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
+        <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
+        <img src="img/sky.png" class="sky translate" data-speed="0.5" alt="">
+    </header>
+    <section>
+        <div class="shadow"></div>
+
+        <!-- Vision -->
+
+    <hr class="line">
+    <section id="vsn" class="vision">
+
+        <p id="v2">OUR VISION</p><br>
+        'Serenity' is a place for people of every interest who needs to find peace within themselves even after their daily bustling routine. We aim towards providing an ambience where you can meet the yourself, without any outer world disturbance, with most exciting things.
+    </section>
+    <hr class="line">
+
+        <!-- Photo Gallery -->
+
+        <div class="swiper-container">
+
+            <div class="b-radius">
+                <h1 class="heading" style="font-family:'Lemonada', cursive ;font-weight:bolder;
+                font-size: 45px;"> Photo Gallery</h1></div>
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide img" id="onePhoto"></div>
+              <div class="swiper-slide img" id="twoPhoto"></div>
+
+              <div class="swiper-slide img" id="threePhoto"></div>
+              <div class="swiper-slide img" id="fourPhoto"></div>
+              <div class="swiper-slide img" id="fivePhoto"></div>
+              <div class="swiper-slide img" id="sixPhoto"></div>
+              <div class="swiper-slide img" id="sevenPhoto" ></div>
+              <div class="swiper-slide img" id="eightPhoto"></div>
+              <div class="swiper-slide img" id="ninePhoto"></div>
+              <div class="swiper-slide img" id="tenPhoto"></div>
+            </div>
+        </div>
+        </section>
+
+        <section class="3cards">
+            <div class="b-radius">
+                <h1 class="heading" style="font-family:'Lemonada', cursive ;font-weight:bolder;
+                font-size: 45px;">Explore our Pages</h1></div>
+
+                <!-- Linking 3 Pages -->
+
+        <div class="container">
+            <div>
+                <div class="content" >
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Meditation</h3>
+                    <p>A direct and well known approach towards calming your mind and soul is meditation. <br> You have a platform where you will be able to listen to soothing music while meditating, suggestions of best people to follow, our expert advices, a proper timer and many more things.</p>
+                    <a href="../2. MEDITATION MAIN PAGE/MainPage.html" target="_blank">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Games</h3>
+                    <p>Games can build brain power or specific abilities. The benefit is that not only can they help to take your mind off of what is stressing you, they can help you to build executive function abilities that can help you to solve problems and stay organized in your regular life--abilities that can relieve stress!</p>
+                    <a href="../3. GAMES/Games.html" target="_blank">Read More</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Our Teams</h3>
+                    <p>We are computer science engineering students of Chitkara University. We present "Serenity" with a new approach to provide people with mental peace in today's bustling life with full awareness.
+                     <br>Explore through our site to get an amazing experience and feel free to contact us anytime to share or ask anything.</p>
+                    <a href="../4. OUR TEAM/t1.html" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <div id="testimonial">
+        <h1 class="heading1" style="font-family:'Lemonada', cursive;font-weight:bolder;
+        font-size: 45px;"> Testimonials </h1></div>
+        <section class="testimonial">
+
+        <div class="quote">
+            <div>
+                <div class="box box1">
+                    <p>"In search of something to take my mind off the hectic schedule of the daily routine, I randomly surfed through the internet and came to know about this site.
+                        On a personal note, I can guarantee that anyone who comes through this site will not get disappointed. I have gone through an amazing experience as no site gives us so much peace at one place."</p>
+                    <h2>~Ayan</h2>
+                </div>
+                <div class="bg"></div>
+            </div>
+            <div>
+                <div class="box box2">
+                    <p>"Having faced psychological stress from past few months, i was in search of a balanced life as i used to have, before the lockdown period. A friend of mine suggested me this site and i was very excited to experience the versatility of this page. I always was a game lover and had never thought playing games can be something that could reduce stress."</p>
+                    <h2>~Manasa </h2>
+                </div>
+                <div class="bg"></div>
+            </div>
+            <div>
+                <div class="box box3">
+                    <p>"I browsed through 'Serenity' with no high expectations as I always keep searching for different sites. Though I have seen many meditation sites, this site was in my actual interest and really impressed me. I will love to keep following and referring to this site. I will happily recommend everyone to at least visit this site once."
+                    </p>
+                    <h2>~Aarav</h2>
+                </div>
+                <div class="bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT US -->
+
+    <section id="contact">
+      			<h1 class="section-heading">
+                      <span>
+                          <i class="far fa-address-card"></i>
+                      </span>
+                      <span> Contact </span>
+                  </h1>
+                  <div id="contact-container">
+
+                      <div id="contact-form-container">
+                          <form id="contact-form">
+                              <input id="input-name" name="name" type="text" placeholder="Your Name">
+                              <input id="input-email" name="input-email" type="text" required placeholder="Your Email">
+                              <textarea id="input-message" name="input-message" rows="2" cols=40 placeholder="Message"></textarea>
+                              <button class="sub-btn" type="submit">SEND MESSAGE</button>
+                          </form>
+                      </div>
+                      <div id="my-details-container">
+
+                          <h3 style="font-size: 25px;"> Get In touch </h3>
+                          <br>
+                          <p style="font-size: 20pxpx;">Chitkara University,<br>Chandigarh-Patiala National Highway (NH- 64),<br> Village, Jansla, Rajpura, Punjab 140401</p>
+
+                          <br>
+
+                          <h3 style="font-size: 25px;"> My Address </h3>
+                          <br>
+                          <div class="my-details-info-container">
+                              <i class="fas fa-map-marker-alt">&emsp;Rajpura, India</i>
+                          </div>
+                          <div class="my-details-info-container">
+                              <i class="fas fa-mobile-alt">&emsp;9999999999</i>
+                          </div>
+                          <div class="my-details-info-container">
+                              <i class="far fa-envelope">&emsp;myemail@gmail.com</i>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="main center">
+                    <div class="box center">
+                        <a href="#" >
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" >
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+              </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Photo Gallery Js -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>        <!-- Glass Tilt Js -->
+    <script type="text/javascript">
+    // Glass effect
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+
+    <script src="app.js"></script> <!-- Landscape Js -->
+</body>
+</html>

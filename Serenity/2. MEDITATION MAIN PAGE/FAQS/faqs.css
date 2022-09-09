@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, #0a0a0a, #817877);
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+    line-height: 4rem;
+    top: calc(50% - 5rem);
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    color: #fafafa;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height:390px;
+    background: url(https://www.caterease.com/wp-content/uploads/2019/02/FAQ-New-Background-Dark.png);
+    background-size: cover;
+}
+
+#backToHomepage{
+    display: flex;
+    background-attachment: fixed;
+    cursor: pointer;
+    color: white;
+}
+
+i, span{
+    padding-left: 20px;
+    padding-top: 10px;
+    background-attachment: fixed;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img{
+    border: 20px ridge rgb(68, 68, 68);
+}
+
+
+/* Panel */
+
+#panel{
+    padding: 5px;
+    font-size: 45px;
+    text-align: center;
+    color: blanchedalmond;
+    font-weight: 600;  
+    font-family: 'Itim', cursive; 
+}
+
+.suggestion{
+    padding: 5px;
+    font: 20px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+ #panel1, #flip1, #panel2, #flip2, #panel3, #flip3, #panel4, #flip4, #panel5, #flip5, #panel6, #flip6, #panel7, #flip7, #panel8, #flip8{
+    padding: 5px;
+    text-align: center;
+    background: linear-gradient(to right, #979494, #575150);
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
+    padding: 50px;
+    display: none;
+  }
+
+  section{
+      padding: 50px 100px 20px 100px;
+  }
